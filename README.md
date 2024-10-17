@@ -1,0 +1,3 @@
+# surrealctl
+
+SurrealDB control center
