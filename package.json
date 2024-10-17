@@ -1,0 +1,32 @@
+{
+  "name": "surrealctl",
+  "version": "1.0.0",
+  "description": "SurrealDB control center",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "init": "node index.js init",
+    "config": "node index.js configure",
+    "help": "node index.js --help",
+    "start": "node index.js start",
+    "status": "node index.js status",
+    "stop": "node index.js stop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["SurrealDB", "cli", "control center"],
+  "author": "David L. Dyess II",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://codeberg.org/daviddyess/surrealctl"
+  },
+  "bugs": {
+    "url": "https://codeberg.org/daviddyess/surrealctl/issues"
+  },
+  "homepage": "https://codeberg.org/daviddyess/surrealctl"
+}
