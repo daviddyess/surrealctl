@@ -24,16 +24,6 @@ A command-line interface for managing SurrealDB instances. This CLI allows you t
    npm install
    ```
 
-3. (Optional) Make the CLI executable:
-   ```
-   chmod +x index.js
-   ```
-
-4. (Optional) Link the CLI to use it globally:
-   ```
-   npm link
-   ```
-
 ## Configuration
 
 The CLI uses a `config.json` file for configuration. If this file doesn't exist, it will check for the following environment variables:
@@ -74,24 +64,12 @@ Use `npm run help` or `./index.js --help` for more information on available comm
 npm run init
 ```
 
-or
-
-```
-./index.js init
-```
-
 This command creates a new SurrealDB database using the configured settings.
 
 ### Start the database
 
 ```
 npm start
-```
-
-or
-
-```
-./index.js start
 ```
 
 Starts the SurrealDB instance in the background.
@@ -102,12 +80,6 @@ Starts the SurrealDB instance in the background.
 npm stop
 ```
 
-or
-
-```
-./index.js stop
-```
-
 Stops the running SurrealDB instance.
 
 ### Configure settings
@@ -116,24 +88,12 @@ Stops the running SurrealDB instance.
 npm configure -- -d ./my-data -u myuser -p mypassword
 ```
 
-or
-
-```
-./index.js configure -d ./my-data -u myuser -p mypassword
-```
-
 Updates the configuration with new settings.
 
 ### Check status
 
 ```
 npm run status
-```
-
-or
-
-```
-./index.js status
 ```
 
 Displays the current status of the SurrealDB instance.
