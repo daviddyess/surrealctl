@@ -30,10 +30,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://codeberg.org/daviddyess/surrealctl"
+    "url": "https://github.com/daviddyess/surrealctl"
   },
   "bugs": {
-    "url": "https://codeberg.org/daviddyess/surrealctl/issues"
+    "url": "https://github.com/daviddyess/surrealctl/issues"
   },
-  "homepage": "https://codeberg.org/daviddyess/surrealctl"
+  "homepage": "https://github.com/daviddyess/surrealctl"
 }
